@@ -618,17 +618,17 @@ svg {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-close-icon {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .modal-button-close:hover,
 .modal-button-close:focus {
   background-color: #404bbf;
   border: none;
 }
-.modal-close-icon {
-  fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.modal-close-icon:hover,
-.modal-close-icon:focus {
+.modal-button-close:hover > .modal-close-icon,
+.modal-button-close:focus > .modal-close-icon {
   fill: #ffffff;
 }
 
