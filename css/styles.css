@@ -559,7 +559,7 @@ svg {
 }
 .subscribe-icon-image {
   fill: #fff;
-  /* margin-left: 16px; */
+  margin-left: 16px;
 }
 /* #endregion footer */
 
@@ -621,7 +621,8 @@ svg {
 .modal-button-close:hover,
 .modal-button-close:focus {
   background-color: #404bbf;
-  fill: #fff;
+  fill: #ffffff;
+  border: none;
 }
 .modal-close-icon {
   fill: #2e2f42;
